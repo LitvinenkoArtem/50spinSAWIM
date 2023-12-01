@@ -55,7 +55,7 @@ begin
 --      clkfx				=> clk
 --    );
 
-matrix_control_u: MATRIX_CTRL
+matrix_control_u: entity work.MATRIX_CTRL
 	port map ( 
 	clk					=> clk,
 	reset				=> reset_port,
@@ -63,7 +63,10 @@ matrix_control_u: MATRIX_CTRL
 	PHASE_in			=> PHASE_input,
 	ce_out				=> ce_out,
 	CONTROL_COEFF		=> CTRL_output,
-	COUNTER_FLAG		=> clk_SPIN
+	COUNTER_FLAG		=> clk_SPIN,
+	wvalid => '0',
+	wcoladdr => (others => '0'),
+	wdata => (others => '0')
 	);
 
 --PHASE_input <= std_logic_vector(Rate_Transition1_out1_1);
