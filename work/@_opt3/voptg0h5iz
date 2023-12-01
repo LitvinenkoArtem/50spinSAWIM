@@ -1,0 +1,186 @@
+m255
+K3
+13
+cModel Technology
+Z0 dG:\GothenburgUniversity\Acoustic Coherent Ising Machine\SAWIM\FPGA\SAWIM
+T_opt
+VCWY8MMOm0ZjJEKdYf];791
+Z1 04 17 4 work STOSAvectorial_tb fast 0
+Z2 04 4 4 work glbl fast 0
+=1-80fa5b71d832-6374fbb3-31-4704
+Z3 o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip +acc
+n@_opt
+Z4 OL;O;10.1c;51
+Z5 dG:\GothenburgUniversity\Acoustic Coherent Ising Machine\SAWIM\FPGA\SAWIM
+T_opt1
+V;f6c9U=8i_4UkFb1>2eiL1
+R1
+R2
+=1-80fa5b71d832-6376100c-e4-51c0
+R3
+n@_opt1
+R4
+R5
+T_opt2
+VoWhPDPRU2QZI`Q:MDZXK]3
+R1
+R2
+=1-80fa5b71d832-63a17d1b-ba-5818
+R3
+n@_opt2
+R4
+R5
+T_opt3
+V:mD;AOhJ;ZmEUN0OXYdIP1
+R1
+R2
+=2-80fa5b71d832-63a1d3f9-75-5884
+R3
+n@_opt3
+R4
+T_opt4
+VbKPN97naU@b=iYUGL:kUP2
+R1
+R2
+=1-80fa5b71d832-63a1d3c5-2cd-5884
+R3
+n@_opt4
+R4
+R5
+vglbl
+ID_fMj]QBM>Ecj5LGgB3e62
+VM[9mS]S:KA1i4VeCMX35[3
+R5
+Z6 w1381677520
+8C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v
+FC:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v
+L0 5
+Z7 OL;L;10.1c;51
+r1
+31
+Z8 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 4BUMBVf6Tzc2Z4KLdBM[:3
+!s90 -reportprogress|300|C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v|
+!i10b 1
+!s85 0
+!s108 1671549892.809000
+!s107 C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v|
+Ematrix_ctrl
+Z9 w1671546950
+Z10 DPx4 work 9 work_pack 0 22 elL?abBMOgP2]caCeQGA;1
+Z11 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z12 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z13 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R5
+Z14 8MATRIX_CTRL.vhd
+Z15 FMATRIX_CTRL.vhd
+l0
+L11
+VSh`noWNBadYh@90i5?ARI2
+Z16 OL;C;10.1c;51
+31
+Z17 !s108 1671549892.309000
+Z18 !s90 -reportprogress|300|-explicit|-93|MATRIX_CTRL.vhd|
+Z19 !s107 MATRIX_CTRL.vhd|
+Z20 o-explicit -93
+Z21 tExplicit 1
+!s100 SooT964MFXmTG9kW9TeB`0
+!i10b 1
+Artl
+R10
+R11
+R12
+R13
+DEx4 work 11 matrix_ctrl 0 22 Sh`noWNBadYh@90i5?ARI2
+l298
+L23
+V2iHjjQ9AbG_95Y4bg55cf0
+R16
+31
+R17
+R18
+R19
+R20
+R21
+!s100 6@A8zWG`Cg<L:3>YlYDf]2
+!i10b 1
+vSTOSAvectorial_tb
+IzT3i6he1ZjMYQCDiH;ZX13
+Vol59C4R?RlfeG20@Zz1Z`1
+R5
+w1668694856
+8tb/STOSAvectorial_tb.v
+Ftb/STOSAvectorial_tb.v
+L0 27
+R7
+r1
+31
+R8
+n@s@t@o@s@avectorial_tb
+!s100 IMD7H5=J>Vm2?hmM_M>UZ2
+!s90 -reportprogress|300|tb/STOSAvectorial_tb.v|
+!s108 1671549892.758000
+!s107 tb/STOSAvectorial_tb.v|
+!i10b 1
+!s85 0
+Estosavectorial_top
+Z22 w1671549567
+R10
+R11
+R12
+R13
+Z23 DPx6 unisim 11 vcomponents 0 22 ^SgSiH]fe0j`VL_8Rhmkj2
+R5
+Z24 8STOSAvectorial_top.vhd
+Z25 FSTOSAvectorial_top.vhd
+l0
+L10
+VG2KAz6h:5V^R^M8Bk<U4D3
+R16
+31
+Z26 !s108 1671549892.384000
+Z27 !s90 -reportprogress|300|-explicit|-93|STOSAvectorial_top.vhd|
+Z28 !s107 STOSAvectorial_top.vhd|
+R20
+R21
+!s100 0d0N_63UNdd=n1k5fY9:20
+!i10b 1
+Artl
+R10
+R11
+R12
+R13
+R23
+DEx4 work 18 stosavectorial_top 0 22 G2KAz6h:5V^R^M8Bk<U4D3
+l43
+L24
+VeR;fdVLZ@7m6mA7hcHCdB3
+R16
+31
+R26
+R27
+R28
+R20
+R21
+!s100 ;G_WEK7dITI1?^9oCBFMz1
+!i10b 1
+Pwork_pack
+R11
+R12
+R13
+w1668596921
+R5
+8work_pack.vhdl
+Fwork_pack.vhdl
+l0
+L5
+VelL?abBMOgP2]caCeQGA;1
+R16
+31
+R20
+R21
+!s100 KO1P>0JHQ@SdJMKBSDl5O0
+!s108 1671549892.249000
+!s90 -reportprogress|300|-explicit|-93|work_pack.vhdl|
+!s107 work_pack.vhdl|
+!i10b 1

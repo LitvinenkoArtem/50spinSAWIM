@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Par" num="492" delta="old" >Multi-threading (&quot;-mt&quot; option) is not supported for the SmartGuide flow. PAR will use only one processor.
+
+</msg>
+
+<msg type="info" file="Par" num="402" delta="old" >SmartGuide was run during Map. Since all guiding (mapping, packing, placement and routing) is completed in MAP, PAR does not require the use of the guide switches. The -smartguide switch only generates a post place and route guide report in the SmartGuide Report File(.GRF). Runtime can be reduced, if this detailed report is not generated. PAR will automatically generate the SmartGuide summary report based on the guide file used during MAP. This summary information is always in the PAR report file and the GRF.
+</msg>
+
+</messages>
+

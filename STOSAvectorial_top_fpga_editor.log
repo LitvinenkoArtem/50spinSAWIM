@@ -1,0 +1,17 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   G:\GothenburgUniversity\Acoustic Coherent Ising Machine\SAWIM\FPGA\SAWIM
+#Date/Time:
+#:T   Thu Nov 17 15:20:31 2022
+#------------------------------
+	#Reading STOSAvectorial_top.ncd...
+	#Loading device for application Rf_Device from file '6slx9.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+	#   "STOSAvectorial_top" is an NCD, version 3.2, device xc6slx9, package ftg256, speed -2
+	#Design creation date: 2022.11.17.10.41.31
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes

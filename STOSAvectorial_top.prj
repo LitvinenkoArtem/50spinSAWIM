@@ -1,0 +1,3 @@
+vhdl work "work_pack.vhdl"
+vhdl work "MATRIX_CTRL.vhd"
+vhdl work "STOSAvectorial_top.vhd"

@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=G:\GothenburgUniversity\Acoustic Coherent Ising Machine\SAWIM\FPGA\SAWIM\impact.xsl
+OUTFILE=G:\GothenburgUniversity\Acoustic Coherent Ising Machine\SAWIM\FPGA\SAWIM\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=G:\GothenburgUniversity\Acoustic Coherent Ising Machine\SAWIM\FPGA\SAWIM
+LICENSE=iMPACT
+USER_INFO=iMPACT

@@ -1,0 +1,31 @@
+NET clk_port				   		  LOC = C10 | IOSTANDARD = "LVCMOS33";       ## system CLK 
+NET "clk_port" CLOCK_DEDICATED_ROUTE = TRUE;
+
+Net clk_port TNM_NET = sys_clk;
+TIMESPEC TS_sys_clk = PERIOD sys_clk 4 MHz;
+
+NET reset_port		                    LOC = A9 | IOSTANDARD = "LVCMOS15"; ## 1
+#NET "reset_port" CLOCK_DEDICATED_ROUTE = FALSE;
+
+#ad9280(J2)
+NET PHASE_input_port<0>                  LOC = L8 | IOSTANDARD = "LVCMOS33";        ##  
+NET PHASE_input_port<1>                  LOC = T9 | IOSTANDARD = "LVCMOS33";        ##  
+NET PHASE_input_port<2>                  LOC = R7 | IOSTANDARD = "LVCMOS33";        ##  
+NET PHASE_input_port<3>                  LOC = T7 | IOSTANDARD = "LVCMOS33";        ##  
+NET PHASE_input_port<4>                  LOC = T5 | IOSTANDARD = "LVCMOS33";        ##  
+NET PHASE_input_port<5>                  LOC = T6 | IOSTANDARD = "LVCMOS33";        ##  
+NET PHASE_input_port<6>                  LOC = T4 | IOSTANDARD = "LVCMOS33";        ##  
+NET PHASE_input_port<7>                  LOC = R5 | IOSTANDARD = "LVCMOS33";        ##  
+
+NET clk_ADC_port	         	         LOC = R1 | IOSTANDARD = "LVCMOS33";        ##  
+
+NET CTRL_port<0>                		  LOC = B5 | IOSTANDARD = "LVCMOS33";        ##  
+NET CTRL_port<1>                		  LOC = A4 | IOSTANDARD = "LVCMOS33";        ##  
+NET CTRL_port<2>                 	  LOC = B6 | IOSTANDARD = "LVCMOS33";        ##  
+NET CTRL_port<3>                 	  LOC = A5 | IOSTANDARD = "LVCMOS33";        ##  
+NET CTRL_port<4>                 	  LOC = A7 | IOSTANDARD = "LVCMOS33";        ##  
+NET CTRL_port<5>                      LOC = A6 | IOSTANDARD = "LVCMOS33";        ## 
+NET CTRL_port<6>        	           LOC = A8 | IOSTANDARD = "LVCMOS33";        ##  
+NET CTRL_port<7>    		              LOC = B8 | IOSTANDARD = "LVCMOS33";        ## 
+
+NET clk_SPIN_port							  LOC = A10 | IOSTANDARD = "LVCMOS33";        ##  

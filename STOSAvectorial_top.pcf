@@ -1,0 +1,145 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Feb 02 12:06:10 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "CTRL_port<0>" LOCATE = SITE "B5" LEVEL 1;
+COMP "CTRL_port<1>" LOCATE = SITE "A4" LEVEL 1;
+COMP "CTRL_port<2>" LOCATE = SITE "B6" LEVEL 1;
+COMP "CTRL_port<3>" LOCATE = SITE "A5" LEVEL 1;
+COMP "CTRL_port<4>" LOCATE = SITE "A7" LEVEL 1;
+COMP "CTRL_port<5>" LOCATE = SITE "A6" LEVEL 1;
+COMP "CTRL_port<6>" LOCATE = SITE "A8" LEVEL 1;
+COMP "CTRL_port<7>" LOCATE = SITE "B8" LEVEL 1;
+COMP "reset_port" LOCATE = SITE "A9" LEVEL 1;
+COMP "clk_ADC_port" LOCATE = SITE "R1" LEVEL 1;
+COMP "PHASE_input_port<0>" LOCATE = SITE "L8" LEVEL 1;
+COMP "PHASE_input_port<1>" LOCATE = SITE "T9" LEVEL 1;
+COMP "PHASE_input_port<2>" LOCATE = SITE "R7" LEVEL 1;
+COMP "PHASE_input_port<3>" LOCATE = SITE "T7" LEVEL 1;
+COMP "PHASE_input_port<4>" LOCATE = SITE "T5" LEVEL 1;
+COMP "PHASE_input_port<5>" LOCATE = SITE "T6" LEVEL 1;
+COMP "PHASE_input_port<6>" LOCATE = SITE "T4" LEVEL 1;
+COMP "PHASE_input_port<7>" LOCATE = SITE "R5" LEVEL 1;
+COMP "clk_port" LOCATE = SITE "C10" LEVEL 1;
+PIN clk_port_pin<0> = BEL "clk_port" PINNAME PAD;
+PIN "clk_port_pin<0>" CLOCK_DEDICATED_ROUTE;
+COMP "clk_SPIN_port" LOCATE = SITE "A10" LEVEL 1;
+TIMEGRP sys_clk = BEL "clk_ADC_port" BEL "PHASE_input_0" BEL "PHASE_input_1"
+        BEL "PHASE_input_2" BEL "PHASE_input_3" BEL "PHASE_input_4" BEL
+        "PHASE_input_5" BEL "PHASE_input_6" BEL "PHASE_input_7" BEL
+        "matrix_control_u/counter_up_0" BEL "matrix_control_u/counter_up_5"
+        BEL "matrix_control_u/counter_up_4" BEL
+        "matrix_control_u/counter_up_3" BEL "matrix_control_u/counter_up_2"
+        BEL "matrix_control_u/counter_up_1" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_11_7" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_11_2" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_11_1" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_11_0" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_13_7" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_13_2" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_13_1" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_13_0" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_14_7" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_14_2" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_14_1" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_14_0" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_10_7" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_10_2" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_10_1" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_10_0" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_15_7" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_15_2" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_15_1" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_15_0" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_9_7" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_9_2" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_9_1" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_9_0" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_8_7" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_8_2" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_8_1" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_8_0" BEL
+        "matrix_control_u/Product16_out1_1_11_1" BEL
+        "matrix_control_u/Product16_out1_1_11_0" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_12_7" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_12_2" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_12_1" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_12_0" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_7_7" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_7_2" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_7_1" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_7_0" BEL
+        "matrix_control_u/Delay15_out1_1" BEL
+        "matrix_control_u/Delay15_out1_0" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_5_7" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_5_2" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_5_1" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_5_0" BEL
+        "matrix_control_u/Delay14_out1_1" BEL
+        "matrix_control_u/Delay14_out1_0" BEL
+        "matrix_control_u/Delay13_out1_1" BEL
+        "matrix_control_u/Delay13_out1_0" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_4_7" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_4_2" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_4_1" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_4_0" BEL
+        "matrix_control_u/Delay12_out1_1" BEL
+        "matrix_control_u/Delay12_out1_0" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_3_7" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_3_2" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_3_1" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_3_0" BEL
+        "matrix_control_u/Delay11_out1_1" BEL
+        "matrix_control_u/Delay11_out1_0" BEL
+        "matrix_control_u/Delay10_out1_1" BEL
+        "matrix_control_u/Delay10_out1_0" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_6_7" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_6_2" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_6_1" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_6_0" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_2_7" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_2_2" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_2_1" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_2_0" BEL
+        "matrix_control_u/Delay9_out1_1" BEL "matrix_control_u/Delay9_out1_0"
+        BEL "matrix_control_u/CONTROL_COEFF_array_final_loop_1_7" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_1_2" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_1_1" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_1_0" BEL
+        "matrix_control_u/Delay8_out1_1" BEL "matrix_control_u/Delay8_out1_0"
+        BEL "matrix_control_u/CONTROL_COEFF_array_final_loop_0_7" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_0_2" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_0_1" BEL
+        "matrix_control_u/CONTROL_COEFF_array_final_loop_0_0" BEL
+        "matrix_control_u/Delay7_out1_1" BEL "matrix_control_u/Delay7_out1_0"
+        BEL "matrix_control_u/Delay6_out1_1" BEL
+        "matrix_control_u/Delay6_out1_0" BEL "matrix_control_u/Delay5_out1_1"
+        BEL "matrix_control_u/Delay5_out1_0" BEL
+        "matrix_control_u/Delay4_out1_1" BEL "matrix_control_u/Delay4_out1_0"
+        BEL "matrix_control_u/Delay3_out1_1" BEL
+        "matrix_control_u/Delay3_out1_0" BEL "matrix_control_u/Delay2_out1_1"
+        BEL "matrix_control_u/Delay2_out1_0" BEL
+        "matrix_control_u/Product1_out1_1_1_1" BEL
+        "matrix_control_u/Product1_out1_1_1_0" BEL
+        "matrix_control_u/counter_up_1_1" BEL
+        "matrix_control_u/counter_up_0_1" BEL
+        "matrix_control_u/Delay13_out1_1_1" BEL
+        "matrix_control_u/Delay11_out1_1_1" BEL
+        "matrix_control_u/Delay4_out1_1_1" BEL
+        "matrix_control_u/Product1_out1_1_1_1_1" BEL
+        "matrix_control_u/Delay15_out1_1_1" BEL
+        "matrix_control_u/Delay7_out1_1_1" BEL
+        "matrix_control_u/Delay5_out1_1_1" BEL
+        "matrix_control_u/Delay12_out1_1_1" BEL
+        "matrix_control_u/Delay10_out1_1_1" BEL
+        "matrix_control_u/Delay14_out1_1_1" BEL
+        "matrix_control_u/Product16_out1_1_11_1_1" BEL
+        "matrix_control_u/Delay2_out1_1_1" BEL
+        "matrix_control_u/Delay8_out1_1_1" BEL
+        "matrix_control_u/Delay3_out1_1_1" BEL
+        "matrix_control_u/Delay6_out1_1_1" BEL
+        "matrix_control_u/Delay9_out1_1_1" BEL "clk_port_IBUF_BUFG";
+TS_sys_clk = PERIOD TIMEGRP "sys_clk" 4 MHz HIGH 50%;
+SCHEMATIC END;
+
